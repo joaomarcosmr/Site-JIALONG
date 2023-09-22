@@ -1,0 +1,173 @@
+/*  font-family: 'Bebas Neue', sans-serif;
+
+    break points
+    --bs-breakpoint-xs: 0;
+    --bs-breakpoint-sm: 576px;
+    --bs-breakpoint-md: 768px;
+    --bs-breakpoint-lg: 992px;
+    --bs-breakpoint-xl: 1200px;
+    --bs-breakpoint-xxl: 1400px;
+*/
+
+@media (min-width: 1400px){
+    
+    /* about-us */
+
+    #about-us-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #about-us-section > .row{
+        width: 75%;
+    }
+}
+
+@media (max-width: 1200px){
+
+    /* navbar */
+}
+
+@media (max-width: 992px){
+
+    /* navbar */
+
+    .container-nav{
+        position: relative;
+        top: -35%;
+    }
+
+    .img-logo{
+        width: 180px;
+    }
+
+    /* third section - about us */
+
+    #about-us-section{
+        background-color: #EFEFEF;
+        height: 400px;
+    }
+
+    /* fourth section - tradition */
+
+    #tradition-section{
+        height: 720px;
+    }
+
+    .row-tradition{
+        width: 90%;
+    }
+
+    .row-tradition .box{
+        width: 100%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    /* navbar */
+
+    .navbarTop{
+        height: 25px;
+    }
+    
+    .navbarBottom{
+        height: 80px;
+    }
+
+    #carousel-section {
+        height: 600px;
+        background-attachment: scroll;
+    }
+
+    .container-nav{
+        position: relative;
+        top: -40%;
+    }
+
+    .img-logo{
+        width: 120px;
+    }
+
+        /* products */
+
+    #products-section{
+        width: 100%;
+    }
+
+    .img-product{
+        margin-left: -40px;
+        height: 300px;
+        width: 100%;
+    }
+
+    .img-product-right{
+        margin-left: 40px;
+        height: 300px;
+        width: 100%;
+    }
+
+    #text-col{
+        padding: 10px;
+    }
+
+    .content-1,
+    .content-2,
+    .content-3,
+    .content-4{
+    padding: 8px;
+}
+
+}
+
+@media (max-width: 576px){
+    
+    /* navbar */
+
+    .container-nav{
+        position: relative;
+        top: -40%;
+    }
+
+    .img-logo{
+        width: 120px;
+    }
+
+    #carousel-section {
+        height: 500px;
+    }
+
+    /* products */
+
+    .img-product,
+    .img-product-right{
+        margin-left: 0px;
+        width: 80%;
+        height: auto;
+    }
+
+    #text-col{
+        margin-top: 40px;
+        padding: 00px 0px 10px 60px;
+        width: 80%;
+    }
+
+    /*about-us section*/
+
+    #about-us-section{
+        background-color: #EFEFEF;
+        height: 700px;
+    }
+
+    /* fourth section - tradition */
+
+    #tradition-section{
+        height: 800px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
