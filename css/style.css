@@ -141,29 +141,49 @@ a{
 
 #seta1{
     position: relative;
-    transform: rotate(-90deg);
     top: 13%;
+
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
 }
 
 #seta2{
     position: relative;
-    transform: rotate(-90deg);
     top: 36%;
     left: -18px;
+
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
 }
 
 #seta3{
     position: relative;
-    transform: rotate(-90deg);
     top: 60%;
     left: -38px;
+
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
 }
 
 #seta4{
     position: relative;
-    transform: rotate(-90deg);
     top: 85%;
     left: -58px;
+
+    transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    -o-transform: rotate(-90deg);
 }
 
 #grid-right-tradition{
