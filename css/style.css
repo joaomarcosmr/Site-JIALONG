@@ -360,10 +360,10 @@ a{
     content: "";
     position: absolute;
     top: 60%;
-    right: -20px; /* Distância entre o texto e a linha */
-    width: 180px; /* Comprimento da linha */
-    height: 1px; /* Espessura da linha */
-    background-color: #33333328; /* Cor da linha */
+    right: -20px;
+    width: 180px; 
+    height: 1px;
+    background-color: #33333328; 
 }
 
 .col-form{
