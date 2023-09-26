@@ -137,12 +137,15 @@ a{
     background-size: cover;
     background-attachment: fixed;
     height: 900px;
+
+    -webkit-mask-attachment: fixed;
 }
 
 #seta1{
     position: relative;
     top: 13%;
 
+    -webkit-mask-position-y: 13%;
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -155,6 +158,8 @@ a{
     top: 36%;
     left: -18px;
 
+    -webkit-mask-position-x: -18px;
+    -webkit-mask-position-y: 36%;
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -167,6 +172,8 @@ a{
     top: 60%;
     left: -38px;
 
+    -webkit-mask-position-x: -38px;
+    -webkit-mask-position-y: 60%;
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
@@ -179,6 +186,8 @@ a{
     top: 85%;
     left: -58px;
 
+    -webkit-mask-position-x: -58px;
+    -webkit-mask-position-y: 85%;
     transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);

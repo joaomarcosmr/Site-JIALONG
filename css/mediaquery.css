@@ -89,21 +89,33 @@
     #seta1{
         left: -20px;
         top: 15%;
+
+        -webkit-mask-position-x: -20px;
+        -webkit-mask-position-y: 15%;
     }
     
     #seta2{
         left: -38px;
         top: 38%;
+
+        -webkit-mask-position-x: -38px;
+        -webkit-mask-position-y: 38%;
     }
     
     #seta3{
         left: -58px;
         top: 62%;
+
+        -webkit-mask-position-x: -58px;
+        -webkit-mask-position-y: 62%;
     }
     
     #seta4{
         left: -74px;
         top: 86%;
+
+        -webkit-mask-position-x: -74px;
+        -webkit-mask-position-y: 86%;
     }
 
     #grid-right-tradition{
