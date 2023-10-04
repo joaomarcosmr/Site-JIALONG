@@ -308,6 +308,7 @@ a{
 
 .box-content-info > p{
     color: rgb(20, 20, 20);
+    text-decoration: none;
 }
 
 .texto-com-linha {
