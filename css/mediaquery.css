@@ -232,6 +232,8 @@
         height: 1000px;
         margin-left: 0px;
         margin-right: 0px;
+        background-image: url('../img/tradition-section.jpg');
+        background-position: center center;
     }
 
     #seta1{
