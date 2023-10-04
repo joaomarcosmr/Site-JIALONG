@@ -48,6 +48,10 @@
     #tradition-section{
         height: 900px;
     }
+
+    .texto-com-linha::before {
+        width: 90px; 
+    }
 }
 
 @media (max-width: 992px){
@@ -149,6 +153,12 @@
         margin-bottom: -5px !important;
     }
 
+    /*contact us*/
+
+    .texto-com-linha::before {
+        right: -20px;
+        width: 90px; 
+    }
 }
 
 @media (max-width: 768px) {
@@ -253,6 +263,30 @@
     #youtube-first-section .container{
         padding: 20px;
     }
+
+    /* gallery */
+
+    .carousel-item{
+        height: auto;
+        padding-right: 0px;
+    }
+
+    #col-gallery{
+        border-left: 0px;
+        border-bottom: 5px solid #F2D422;
+        margin-bottom: 50px;
+        height: 200px;
+    }
+
+    /*contact us*/
+
+    .texto-com-linha::before {
+        width: 140px; 
+    }
+
+    .box-content-info{
+        width: 90%;
+    }
 }
 
 @media (max-width: 576px){
@@ -338,6 +372,26 @@
         margin-right: 0px;
     }
 
+    /* gallery */
+
+    #col-gallery{
+        position: relative;
+        left: 25px;
+        height: 250px;
+        width: 90%;
+    }
+
+    /*contact us*/
+
+    .texto-com-linha::before {
+        right: -20px;
+        width: 160px; 
+    }
+
+    .box-content-info{
+        width: 90%;
+    }
+
 }
 
 @media (max-width: 470px){
@@ -360,6 +414,18 @@
         height: 1180px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    /*contact us*/
+
+    .texto-com-linha::before {
+        right: -20px;
+        width: 80px; 
+    }
+
+        .box-content-info{
+        width: 80%;
+        padding-top: 25px;
     }
 }
 
@@ -381,11 +447,40 @@
     }
 
     /* fourth section - tradition */
-    
+        
+    #seta3{
+        left: -48px;
+        top: 43%;
+    }
+        
+    #seta4{
+        left: -64px;
+        top: 63%;
+    }
 
     #tradition-section{
         height: 1180px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    /*contact us*/
+
+    .texto-com-linha::before {
+        right: -20px;
+        width: 50px; 
+    }
+
+    .box-content-info{
+        width: 90%;
+    }
+
+    /* gallery */
+
+    #col-gallery{
+        position: relative;
+        left: 15px;
+        height: 250px;
+        width: 90%;
     }
 }

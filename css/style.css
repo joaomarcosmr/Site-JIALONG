@@ -276,7 +276,7 @@ a{
 }
 
 .carousel-item{
-    height: 400px;
+    height: auto;
     padding-right: 26px;
 }
 
