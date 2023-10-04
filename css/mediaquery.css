@@ -87,35 +87,35 @@
     }
 
     #seta1{
-        left: -20px;
-        top: 15%;
+        left: -18px;
+        top: 10%;
 
-        -webkit-mask-position-x: -20px;
-        -webkit-mask-position-y: 15%;
+        -webkit-mask-position-x: -18px;
+        -webkit-mask-position-y: 10%;
     }
     
     #seta2{
-        left: -38px;
-        top: 38%;
+        left: -32px;
+        top: 35%;
 
-        -webkit-mask-position-x: -38px;
-        -webkit-mask-position-y: 38%;
+        -webkit-mask-position-x: -32px;
+        -webkit-mask-position-y: 35%;
     }
     
     #seta3{
-        left: -58px;
-        top: 62%;
+        left: -48px;
+        top: 60%;
 
-        -webkit-mask-position-x: -58px;
-        -webkit-mask-position-y: 62%;
+        -webkit-mask-position-x: -48px;
+        -webkit-mask-position-y: 60%;
     }
     
     #seta4{
-        left: -74px;
-        top: 86%;
+        left: -64px;
+        top: 87%;
 
-        -webkit-mask-position-x: -74px;
-        -webkit-mask-position-y: 86%;
+        -webkit-mask-position-x: -64px;
+        -webkit-mask-position-y: 87%;
     }
 
     #grid-right-tradition{
