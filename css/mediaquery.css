@@ -88,34 +88,22 @@
 
     #seta1{
         left: -18px;
-        top: 10%;
-
-        -webkit-mask-position-x: -18px;
-        -webkit-mask-position-y: 10%;
+        top: 4%;
     }
     
     #seta2{
-        left: -32px;
-        top: 35%;
-
-        -webkit-mask-position-x: -32px;
-        -webkit-mask-position-y: 35%;
+        left: -34px;
+        top: 24%;
     }
     
     #seta3{
         left: -48px;
-        top: 60%;
-
-        -webkit-mask-position-x: -48px;
-        -webkit-mask-position-y: 60%;
+        top: 43%;
     }
     
     #seta4{
         left: -64px;
-        top: 87%;
-
-        -webkit-mask-position-x: -64px;
-        -webkit-mask-position-y: 87%;
+        top: 64%;
     }
 
     #grid-right-tradition{
@@ -234,6 +222,26 @@
         height: 1000px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    #seta1{
+        left: -18px;
+        top: 4%;
+    }
+    
+    #seta2{
+        left: -34px;
+        top: 24%;
+    }
+    
+    #seta3{
+        left: -48px;
+        top: 45%;
+    }
+    
+    #seta4{
+        left: -64px;
+        top: 66%;
     }
 
     /* fifth section - video gallery -- PRIMEIRA PARTE*/

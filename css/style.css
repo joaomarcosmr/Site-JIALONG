@@ -141,36 +141,33 @@ a{
     -webkit-mask-attachment: fixed;
 }
 
+.boxangle{
+    position: absolute;
+    height: 100%;
+}
+
 #seta1{
     position: relative;
-    top: 13%;
+    top: 12%;
+    left: 13px;
 }
 
 #seta2{
     position: relative;
     top: 36%;
-    left: -10px;
-
-    -webkit-mask-position-x: -10px;
-    -webkit-mask-position-y: 36%;
+    left: 0px;
 }
 
 #seta3{
     position: relative;
-    top: 60%;
-    left: -24px;
-
-    -webkit-mask-position-x: -24px;
-    -webkit-mask-position-y: 60%;
+    top: 62%;
+    left: -16px;
 }
 
 #seta4{
     position: relative;
     top: 85%;
-    left: -38px;
-
-    -webkit-mask-position-x: -38px;
-    -webkit-mask-position-y: 85%;
+    left: -32px;
 }
 
 #grid-right-tradition{
