@@ -306,6 +306,10 @@ a{
     left: 25px;
 }
 
+.box-content-info > p{
+    color: rgb(20, 20, 20);
+}
+
 .texto-com-linha {
     position: relative;
 }
