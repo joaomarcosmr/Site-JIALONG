@@ -137,8 +137,6 @@ a{
     background-size: cover;
     background-attachment: fixed;
     height: 900px;
-
-    -webkit-mask-attachment: fixed;
 }
 
 .boxangle{
