@@ -294,6 +294,11 @@
 
     /*contact us*/
 
+    #contact-us-section{
+        margin-top: -10px;
+        height: 700px;
+    }
+
     .texto-com-linha::before {
         width: 140px; 
     }
