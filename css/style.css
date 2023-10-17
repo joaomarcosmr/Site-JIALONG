@@ -13,7 +13,7 @@ a{
 }
 
 /* whatsapp button */
-.whatsappButton{
+#whatsappButton{
     position: fixed;
     bottom: 15%;
     right: 3%;
@@ -25,7 +25,7 @@ a{
     box-shadow: -4px 7px 15px rgba(0, 0, 0, .2);
 }
 
-.whatsappButton i{
+#whatsappButton i{
     font-size: 50px;
     margin-left: 9px;
     margin-top: 5px;

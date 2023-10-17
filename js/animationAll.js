@@ -1,5 +1,17 @@
 gsap.registerPlugin(ScrollTrigger);
 
+    // WHATSAPP BUTTON
+
+    gsap.to(`#whatsappButton`, {x: 300, duration: 0, opacity: 0.3,})
+
+    gsap.to(`#whatsappButton`, {x: 0, duration: 1, opacity: 1,
+        scrollTrigger: {
+            trigger: `#whatsappButton`,
+            start: "top 60%",
+            end: "center 20%",
+        }
+    })
+
     // PRODUCTS SESSION
     
     for(n=1;n<=4;n++){
