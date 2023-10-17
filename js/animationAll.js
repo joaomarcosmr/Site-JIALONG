@@ -14,7 +14,6 @@ gsap.registerPlugin(ScrollTrigger);
                 trigger: `#item-${n}`,
                 start: "top 80%",
                 end: "center 20%",
-                toggleActions: "play reverse play reverse",
             }
         })
     }
@@ -32,7 +31,6 @@ gsap.registerPlugin(ScrollTrigger);
                 trigger: `#video${i}`,
                 start: "top 80%",
                 end: "center 20%",
-                toggleActions: "play reverse play reverse",
             }
         })
     }
