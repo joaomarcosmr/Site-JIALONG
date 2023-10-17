@@ -164,7 +164,7 @@
 @media (max-width: 768px) {
 
     /* whatsapp button */
-    .whatsappButton{
+    #whatsappButton{
         bottom: 8%;
     }
 
