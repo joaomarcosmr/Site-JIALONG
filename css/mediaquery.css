@@ -171,7 +171,9 @@
     /* navbar */
 
     #navbarTop{
-        height: 0px;
+        background-color: #F2D422;
+        transition: all 0.3s ease-in-out;
+        margin-top: -15px;
     }
 
     .navbarTop-active{
@@ -302,6 +304,12 @@
 }
 
 @media (max-width: 576px){
+
+    /* navbar */
+
+    .navbar-toggler{
+        margin-right: 20px;
+    }
 
     /* main Banner */
     
