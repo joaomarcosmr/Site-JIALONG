@@ -77,6 +77,7 @@ a{
     animation: navHover;
     animation-duration: 0.5s; 
     background-color: #f2d322d7;
+    padding: 10px;
 }
 
 .img-logo{
