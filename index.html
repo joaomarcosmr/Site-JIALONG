@@ -22,27 +22,10 @@
 </head>
 <body>
     <header class="fixed-top">
-
-        <nav class="navbar navbar-expand navbarTop">
-            <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-brands fa-facebook" style="color: #000000;"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-brands fa-youtube" style="color: #000000;"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-brands fa-linkedin" style="color: #000000;"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-brands fa-instagram" style="color: #000000;"></i></a>
-                  </li>
-                </ul>
-              </div>
+        <nav class="navbar navbar-expand" id="navbarTop">
         </nav>
 
-        <nav class="navbar navbar-expand-lg navbarBottom d-flex align-items-center justify-content-center">
+        <nav class="navbar navbar-expand-lg d-flex align-items-center justify-content-center" id="navbarBottom">
             <div class="container container-nav">
                 <img src="img/logo-jia-long-pack.png" alt="" class="img img-logo">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -72,11 +55,15 @@
               </div>
             </div>
         </nav>
-
     </header>
     
     <main class="container-fluid">
-
+        <!-- WhatsApp Button -->
+        <div class="whatsappButton">
+          <a target="_blank" href="https://wa.me/5547988514546?text=Eu+vim+pelo+site+e+gostaria+de+saber+mais%21">
+            <i class="fa-brands fa-whatsapp" style="color: #fcfcfc"></i>
+          </a>
+        </div>
         <!-- Main Banner -->
         <section class="img-fluid d-flex align-items-center" id="carousel-section">
             <div class="container">
@@ -90,49 +77,49 @@
         <!-- Product Section -->
         <section class="" id="products-section">
             <div class="container">
-              <div class="row mb-5 row-products">
+              <div class="row mb-5 row-products" id="flexoprinter">
                 <div class="col-12 order-1 col-md-6 col-sm-7 order-sm-1 d-flex align-items-center justify-content-center" id="img-col">
                   <img src="img/flexo-printer.png" class="img-product img-fluid">
                 </div>
                 <div class="col-12 order-2 col-md-6 col-sm-5 order-sm-2 d-flex align-items-center justify-content-center" id="text-col-1">
                   <div class="content-1">
-                    <h2>Flexo Printer</h2>
+                    <h2>Impressora Flexográfica</h2>
                     <p>A FlexoPrinter é uma impressora versátil e eficiente. Com sua tecnologia flexográfica de ponta, imprime com precisão e qualidade excepcional em uma variedade de materiais. Aumente a produtividade e eleve a qualidade de suas impressões com nossa solução de impressão flexível e confiável.</p>
                     <a href="#contact-us-section" class="btn btn-outline-success">Contate-nos</a>
                   </div>
                 </div>
               </div>
-              <div class="row mb-5 row-products">
+              <div class="row mb-5 row-products" id="corrugadora">
                 <div class="col-12 order-1 col-md-6 col-sm-7 order-sm-2 d-flex align-items-center justify-content-center" id="img-col">
                   <img src="img/corrugator.png" class="img-product-right img-fluid">
                 </div>
                 <div class="col-12 order-2 col-md-6 col-sm-5 order-sm-1 d-flex align-items-center justify-content-center" id="text-col-2">
                   <div class="content-2">
-                    <h2>Corrugator Laminator Em Linha</h2>
+                    <h2>Corrugadora de Papelão Ondulado Laminado</h2>
                     <p>Esta máquina de última geração proporciona uma produção contínua e eficaz de embalagens de papelão ondulado laminado, garantindo resistência e qualidade superior. Ideal para quem busca embalagens personalizadas e de alto desempenho, esta solução inovadora oferece eficiência e confiabilidade incomparáveis.</p>
                     <a href="#contact-us-section" class="btn btn-outline-success">Contate-nos</a>
                   </div>
                 </div>
               </div>
-              <div class="row mb-5 row-products">
+              <div class="row mb-5 row-products" id="dobradora">
                 <div class="col-12 order-1 col-md-6 col-sm-7 order-sm-1 d-flex align-items-center justify-content-center" id="img-col">
                   <img src="img/auto-folder.png" class="img-product img-fluid">
                 </div>
                 <div class="col-12 order-2 col-md-6 col-sm-5 order-sm-2 d-flex align-items-center justify-content-center" id="text-col-3">
                   <div class="content-3">
-                    <h2>Auto Flder Gluer 4,6</h2>
+                    <h2>Dobradora e Coladora Automática 4,6</h2>
                     <p>Esta máquina automatizada realiza dobragem e colagem de papelão ondulado com facilidade, oferecendo qualidade excepcional e personalização para suas embalagens. Com capacidade para lidar com papelão de até 4,6 pontos de espessura, esta máquina é a escolha ideal para produções em larga escala.</p>
                     <a href="#contact-us-section" class="btn btn-outline-success">Contate-nos</a>
                   </div>
                 </div>
             </div>
-            <div class="row mb-5 row-products">
+            <div class="row mb-5 row-products" id="prototipos">
               <div class="col-12 order-1 col-md-6 col-sm-7 order-sm-2 d-flex align-items-center justify-content-center" id="img-col">
                 <img src="img/sample-maker.png" class="img-product-right img-fluid">
               </div>
               <div class="col-12 order-2 col-md-6 col-sm-5 order-sm-1 d-flex align-items-center justify-content-center" id="text-col-4">
                 <div class="content-4">
-                  <h2>Sample Maker S</h2>
+                  <h2>Máquina de Protótipos S</h2>
                   <p>Esta linha de máquinas de última geração é projetada para transformar conceitos em realidade, permitindo a produção eficiente e precisa de protótipos e amostras. Cortando, vincando e perfurando uma variedade de materiais, desde papelão até plástico, essa série oferece flexibilidade e qualidade incomparáveis. Ideal para designers e fabricantes que valorizam a excelência.</p>
                   <a href="#contact-us-section" class="btn btn-outline-success">Contate-nos</a>
                 </div>
@@ -140,6 +127,7 @@
             </div>
         </section>
         <!-- End Product Section -->
+
         <!-- About Us Section -->
         <section class="container-fluid d-flex justify-content-center align-items-center" id="about-us-section">
             <div class="row row-about-us">
@@ -156,6 +144,7 @@
             </div>
         </section>
         <!-- End About Us Section -->
+
         <!-- Tradicao Section -->
         <section class="container-fluid d-flex justify-content-center align-items-center" id="tradition-section">
           <div class="container d-flex justify-content-center align-items-center position-relative">
@@ -194,6 +183,7 @@
           </div>
       </section>   
       <!-- End Tradicao Section --> 
+
       <!-- YouTube Section -->
       <section class="container-fluid d-flex align-items-center" id="youtube-first-section">
         <div class="container">
@@ -207,39 +197,40 @@
         <div class="container d-flex justify-content-center align-items-center">
           <div class="row row-videos">
             <div class="col-12 col-md-4 col-videos">
-              <div class="box-video">
+              <div class="box-video" id="video1">
                 <iframe class="object-fit-contain" width="360" height="202" src="https://www.youtube.com/embed/I3MKvtOIQpM" title="Paper Lunch Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-12 col-md-4 col-videos">
-              <div class="box-video">
-                <iframe class="object-fit-contain" width="360" height="202" src="https://www.youtube.com/embed/I3MKvtOIQpM" title="Paper Lunch Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="box-video" id="video2">
+                <iframe width="360" height="202" src="https://www.youtube.com/embed/jUgaWDcCOxQ" title="Auto Folder Gluer 4/6 Point" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-12 col-md-4 col-videos">
-              <div class="box-video">
-                <iframe class="object-fit-contain" width="360" height="202" src="https://www.youtube.com/embed/I3MKvtOIQpM" title="Paper Lunch Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="box-video" id="video3">
+                <iframe width="360" height="202" src="https://www.youtube.com/embed/6MB86wmFylo" title="Flexo Inline Folder Gluer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-12 col-md-4 col-videos">
-              <div class="box-video">
-                <iframe class="object-fit-contain" width="360" height="202" src="https://www.youtube.com/embed/I3MKvtOIQpM" title="Paper Lunch Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="box-video" id="video4">
+                <iframe width="360" height="202" src="https://www.youtube.com/embed/y1N8puxFgxE" title="Sample Maker machines" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-12 col-md-4 col-videos">
-              <div class="box-video">
-                <iframe class="object-fit-contain" width="360" height="202" src="https://www.youtube.com/embed/I3MKvtOIQpM" title="Paper Lunch Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="box-video" id="video5">
+                <iframe width="360" height="202" src="https://www.youtube.com/embed/csQAcEL7QkI" title="Auto Slotter" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
             <div class="col-12 col-md-4 col-videos">
-              <div class="box-video">
-                <iframe class="object-fit-contain" width="360" height="202" src="https://www.youtube.com/embed/I3MKvtOIQpM" title="Paper Lunch Box" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <div class="box-video" id="video6">
+                <iframe width="360" height="202" src="https://www.youtube.com/embed/Lq2AuByNPtw" title="Flexo Printer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
               </div>
             </div>
           </div>
         </div>
       </section>
       <!-- End YouTube Section -->
+
       <!-- Gallery Section -->
       <section class="container-fluid d-flex align-items-center" id="gallery-first-section">
         <div class="container">
@@ -247,14 +238,47 @@
             <div class="col-md-6 order-2 order-md-1 d-flex align-items-center">
               <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="img/produtos/3.jpg" class="d-block img-fluid object-fit-fill" alt="...">
+                  <div class="carousel-item">
+                    <img src="img/produtos/1.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/2.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/3.jpg" class="d-block img-fluid" alt="...">
                   </div>
                   <div class="carousel-item">
                     <img src="img/produtos/4.jpg" class="d-block img-fluid" alt="...">
                   </div>
                   <div class="carousel-item">
                     <img src="img/produtos/5.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/6.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/7.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/8.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/9.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item active">
+                    <img src="img/produtos/10.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/11.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/12.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/13.jpg" class="d-block img-fluid" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/produtos/14.jpg" class="d-block img-fluid" alt="...">
                   </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -277,6 +301,7 @@
         </div>
       </section>
       <!--End Gallery Section-->
+
       <!--Contact-Us-->
       <section class="container-fluid d-flex align-items-center" id="contact-us-section">
         <div class="container">
@@ -305,9 +330,7 @@
               </div>
               <div class="box-content-info">
                 <p>Diretor Geral: Jun Wang</p>
-                <p class="text-black"><i class="fa-solid fa-phone" style="color: #F2D422"></i> +381 63 7819 585 (Inglês)</p>
-                <p class="text-black"><i class="fa-solid fa-phone" style="color: #F2D422"></i> +381 64 1177 399 (Sérvio)</p>
-                <p class="text-black"><i class="fa-brands fa-whatsapp" style="color: #F2D422"></i> +86133 775 83 611</p>
+                <p class="text-black"><i class="fa-brands fa-whatsapp" style="color: #F2D422"></i> (47) 98851-4546</p>
                 <p class="text-black"><i class="fa-regular fa-envelope" style="color: #F2D422"></i> jialongpack@vip.126.com</p>
               </div>
             </div>
@@ -330,5 +353,9 @@
       </section>
       <!--End Footer-->
     </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

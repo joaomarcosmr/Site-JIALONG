@@ -163,13 +163,23 @@
 
 @media (max-width: 768px) {
 
+    /* whatsapp button */
+    .whatsappButton{
+        bottom: 8%;
+    }
+
     /* navbar */
 
-    .navbarTop{
+    #navbarTop{
+        height: 0px;
+    }
+
+    .navbarTop-active{
+        background-color: #F2D422;
         height: 25px;
     }
     
-    .navbarBottom{
+    #navbarBottom{
         height: 80px;
     }
 

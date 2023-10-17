@@ -12,22 +12,60 @@ a{
     text-decoration: none;
 }
 
+/* whatsapp button */
+.whatsappButton{
+    position: fixed;
+    bottom: 15%;
+    right: 3%;
+    z-index: 99999;
+    width: 60px;
+    height: 60px;
+    background-color: #25D366;
+    border-radius: 50px;
+    box-shadow: -4px 7px 15px rgba(0, 0, 0, .2);
+}
+
+.whatsappButton i{
+    font-size: 50px;
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
 /* navbar */
 
-.navbarTop{
-    background-color: #F2D422;
+#navbarTop{
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+    margin-top: -15px;
+}
+
+.navbarTop-active{
+    margin-top: 0px !important;
+    background-color: #F2D422 !important;
     height: 40px;
 }
 
-.navbarBottom{
-    background-color: transparent;
-    /*background-image: linear-gradient(to right, #fdfbfb 60%, #d8fff365 100%);*/
-    box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
+#navbarBottom{
+    margin-top: -1px;
+    background-image: linear-gradient(to right, rgb(238, 238, 238), rgb(238, 238, 238));
+    border-bottom: 1px solid rgba(0, 0, 0, 0.432);
     height: 120px;
+    transition: all 0.1s ease-in-out;
 }
 
-.navbarBottom a{
-    color: white;
+.navbarBottom-active{
+    background-image: none !important;
+    background-color: transparent !important;
+    box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
+}
+
+#navbarBottom a{
+    color: black;
+}
+
+.navbarBottom-active a{
+    color: white !important;
 }
 
 .img-logo{
