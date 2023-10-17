@@ -1,8 +1,8 @@
 gsap.registerPlugin(ScrollTrigger);
 
     // PRODUCTS SESSION
+    
     for(n=1;n<=4;n++){
-        console.log('to aqui')
         if(n%2 == 0){
             gsap.to(`#item-${n}`, {x: 300, duration: 0, opacity: 0.3,})
         } else {
@@ -19,6 +19,7 @@ gsap.registerPlugin(ScrollTrigger);
     }
     
     // video youtube
+
     for(i=1;i<=6;i++){
         if(i%2 == 0){
             gsap.to(`#video${i}`, {x: 300, duration: 0, opacity: 0.3,})
