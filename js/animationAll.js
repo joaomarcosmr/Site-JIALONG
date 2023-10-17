@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
     gsap.to(`#whatsappButton`, {x: 0, duration: 1, opacity: 1,
         scrollTrigger: {
             trigger: `#whatsappButton`,
-            start: "top 60%",
+            start: "top 50%",
             end: "center 20%",
         }
     })
