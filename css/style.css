@@ -60,12 +60,8 @@ a{
     box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
 }
 
-#navbarBottom a{
-    color: black;
-}
-
-.navbarBottom-active a{
-    color: white !important;
+.nav-link{
+    color: white;
 }
 
 .img-logo{
