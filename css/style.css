@@ -59,8 +59,24 @@ a{
     box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
 }
 
+@keyframes navHover {
+    from {background-color: #f2d32202;}
+    to {background-color: #f2d322d7;}
+  }
+
 .nav-link{
     color: white;
+    border-radius: 10px;
+}
+
+.nav-link:hover{
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    animation: navHover;
+    animation-duration: 0.5s; 
+    background-color: #f2d322d7;
 }
 
 .img-logo{
