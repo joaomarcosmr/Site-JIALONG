@@ -1,5 +1,16 @@
 gsap.registerPlugin(ScrollTrigger);
 
+    // NAV
+
+    ScrollTrigger.create({
+        trigger: "#carousel-section",
+        toggleClass: {
+            targets: "#navbarTogglerDemo02",
+            className: "togglerNav",
+        }
+    })
+    
+
     // WHATSAPP BUTTON
 
     gsap.to(`#whatsappButton`, {x: 300, duration: 0, opacity: 0.3,})

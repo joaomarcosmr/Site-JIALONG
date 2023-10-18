@@ -54,7 +54,12 @@ a{
     transition: all 0.1s ease-in-out;
 }
 
+.togglerNav{
+    background-color: transparent !important;
+}
+
 .navbarBottom-active{
+    color: bold;
     background-color: transparent !important;
     box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
 }
@@ -95,7 +100,6 @@ a{
 .navbar-toggler-icon{
     color: white;
 }
-
 
 /* main Banner */
 
