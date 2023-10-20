@@ -70,6 +70,7 @@ class FormSubmit{
     checkFields(){
         const fields = this.form.querySelectorAll("[name]")
         const textArea = document.getElementById('textArea')
+        this.valid = true
         fields.forEach((field) => {
             if(field.value == '' || textArea.value == ''){
                 this.valid = false
