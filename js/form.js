@@ -2,6 +2,7 @@ class FormSubmit{
     constructor(settings){
         this.settings = settings
         this.valid = true
+        this.campoVazio = false
         this.form = document.querySelector(settings.form)
         this.formButton = document.querySelector(settings.button)
         if (this.form){
@@ -58,7 +59,7 @@ class FormSubmit{
                 })
                 this.displaySuccess()
             } else {
-                this.settings.error = "<h3 class='msg text-danger my-4'>Preencha todos os campos</h3>"
+                if(this.campoVazio) this.settings.error = "<h3 class='msg text-danger my-4'>Preencha todos os campos</h3>"
                 this.displayError(event)
             }
         }catch(e){
@@ -69,11 +70,31 @@ class FormSubmit{
 
     checkFields(){
         const fields = this.form.querySelectorAll("[name]")
+        const email = document.getElementById('email-input')
         const textArea = document.getElementById('textArea')
+        const tel = document.getElementById('tel-input')
+        let num = tel.value.split('').every(function(char){
+            return !isNaN(char)
+        })
         this.valid = true
+        this.campoVazio = false
+        if(!num){
+            this.valid = false
+            this.settings.error = "<h3 class='msg text-danger my-4'>Apenas números no campo telefone</h3>"
+        }
+        if(!email.value.includes("@") || !email.value.includes(".")){
+            this.valid = false
+            this.settings.error = "<h3 class='msg text-danger my-4'>E-mail inválido</h3>"
+        }
+        if(!num && (!email.value.includes("@") || !email.value.includes("."))){
+            this.valid = false
+            this.settings.error = "<h3 class='msg text-danger my-4'>E-mail inválido<br>Apenas números no campo telefone</h3>"
+        }
+
         fields.forEach((field) => {
             if(field.value == '' || textArea.value == ''){
                 this.valid = false
+                this.campoVazio = true
                 return
             }
         })
