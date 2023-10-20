@@ -17,6 +17,7 @@ class FormSubmit{
     displayError(event){
         const div = document.createElement('div')
         const tagError = document.getElementById('tagError')
+        const divText = document.getElementById('divText')
         if(tagError){
             tagError.remove()
         }
@@ -24,7 +25,7 @@ class FormSubmit{
         event.target.disabled = false
         event.target.innerText = "Enviar"
         div.innerHTML = this.settings.error
-        this.form.appendChild(div)
+        divText.appendChild(div)
     }
 
     getFormObject(){
@@ -57,7 +58,7 @@ class FormSubmit{
                 })
                 this.displaySuccess()
             } else {
-                this.settings.error = "<h3 class='msg text-danger'>Preencha todos os campos</h3>"
+                this.settings.error = "<h3 class='msg text-danger my-4'>Preencha todos os campos</h3>"
                 this.displayError(event)
             }
         }catch(e){
