@@ -354,8 +354,9 @@
     /*contact us*/
 
     #contact-us-section{
-        margin-top: -10px;
-        height: 700px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        height: auto;
     }
 
     .texto-com-linha::before {

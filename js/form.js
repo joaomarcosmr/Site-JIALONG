@@ -7,6 +7,7 @@ class FormSubmit{
             this.url = this.form.getAttribute("action")
         }
         this.sendForm = this.sendForm.bind(this)
+        this.error = []
     }
 
     displaySuccess(){
@@ -49,6 +50,19 @@ class FormSubmit{
             this.displayError()
         }
     }
+
+    /*checkInput(){
+        const fields = this.form.querySelectorAll("[name]")
+        const fieldText = this.form.querySelector("#textArea")
+        const input = []
+        fields.forEach((field) => {
+            input.push(field.value)
+        })
+        if(input.length < 3 || fieldText.value == ""){
+            this.error.push("campoinvalido")
+            return
+        }
+    }*/
 
     init(){
         if(this.form){

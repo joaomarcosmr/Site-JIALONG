@@ -14,6 +14,12 @@ a{
 
 /* botoes form */
 
+.success{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
 button:disabled{
     cursor: not-allowed;
     background-color: #333333;
