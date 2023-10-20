@@ -30,6 +30,13 @@
     #tradition-section{
         height: 800px;
     }
+
+        /* side pages */
+        
+        #politicas{
+            margin-top: 200px;
+            height: 100%;
+        }
 }
 
 @media (max-width: 1400px){
@@ -39,6 +46,18 @@
     #tradition-section{
         height: 800px;
     }
+
+            /* side pages */
+
+            #termos{
+                margin-top: 200px;
+                height: 100%;
+            }
+            
+            #politicas{
+                margin-top: 200px;
+                height: 100%;
+            }
 }
 
 @media (max-width: 1200px){
@@ -52,10 +71,29 @@
     .texto-com-linha::before {
         width: 90px; 
     }
+    
+            /* side pages */
+
+            #termos{
+                margin-top: 200px;
+                height: 100%;
+            }
+            
+            #politicas{
+                margin-top: 200px;
+                height: 100%;
+            }
 
 }
 
 @media (max-width: 992px){
+
+    /* side pages */
+    
+    #politicas{
+        margin-top: 200px;
+        height: 100%;
+    }
 
     /* navbar */
 
@@ -214,6 +252,10 @@
 
     .img-logo{
         width: 120px;
+    }
+
+    #navbarTogglerDemo02{
+        margin-top: -23px;
     }
 
         /* products */
@@ -525,4 +567,16 @@
         height: 250px;
         width: 90%;
     }
+
+            /* side pages */
+
+            #termos{
+                margin-top: 200px;
+                height: 100%;
+            }
+            
+            #politicas{
+                margin-top: 200px;
+                height: 100%;
+            }
 }

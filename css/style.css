@@ -12,10 +12,30 @@ a{
     text-decoration: none;
 }
 
+/* botoes form */
+
+button:disabled{
+    cursor: not-allowed;
+    background-color: #333333;
+}
+
+
+/* Termos de Uso */
+
+#termos{
+    margin-top: 80px;
+    height: 4000px;
+}
+
+#politicas{
+    margin-top: 80px;
+    height: 2400px;    
+}
+
 /* whatsapp button */
 #whatsappButton{
     position: fixed;
-    bottom: 15%;
+    bottom: 10%;
     right: 3%;
     z-index: 99999;
     width: 60px;
