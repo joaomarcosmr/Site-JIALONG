@@ -7,7 +7,6 @@ class FormSubmit{
             this.url = this.form.getAttribute("action")
         }
         this.sendForm = this.sendForm.bind(this)
-        this.error = []
     }
 
     displaySuccess(){
