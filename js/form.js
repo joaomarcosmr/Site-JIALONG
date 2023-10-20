@@ -73,9 +73,11 @@ class FormSubmit{
         const email = document.getElementById('email-input')
         const textArea = document.getElementById('textArea')
         const tel = document.getElementById('tel-input')
+        
         let num = tel.value.split('').every(function(char){
             return !isNaN(char)
         })
+
         this.valid = true
         this.campoVazio = false
         if(!num){
