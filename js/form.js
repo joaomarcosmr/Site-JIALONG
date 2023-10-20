@@ -16,11 +16,7 @@ class FormSubmit{
 
     displayError(event){
         const div = document.createElement('div')
-        const tagError = document.getElementById('tagError')
         const divText = document.getElementById('divText')
-        if(tagError){
-            tagError.remove()
-        }
         div.id = 'tagError'
         event.target.disabled = false
         event.target.innerText = "Enviar"
@@ -45,6 +41,10 @@ class FormSubmit{
 
     async sendForm(event){
         try{
+            const tagError = document.getElementById('tagError')
+            if(tagError){
+                tagError.remove()
+            }
             this.onSubmission(event)
             this.checkFields()
             if(this.valid == true) {
