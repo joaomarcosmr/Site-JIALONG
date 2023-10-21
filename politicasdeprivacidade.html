@@ -92,21 +92,21 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 col-form">
-              <form>
+              <form action="https://formsubmit.co/ajax/joaomarcosmr4@gmail.com" method="POST" data-form>
                 <h3 class="mb-4 texto-com-linha">Entre em Contato Conosco</h3>
                 <div class="mb-3">
-                  <input type="text" class="form-control form-input" name="nome" id="name-input" placeholder="Nome" required>
+                  <input type="text" class="form-control form-input" name="name" id="name-input" placeholder="Nome" required>
                 </div>
                 <div class="mb-3">
-                  <input type="email" class="form-control form-input" name="nome" id="email-input" placeholder="Seu e-mail" required>
+                  <input type="email" class="form-control form-input" name="email" id="email-input" placeholder="Seu e-mail" required>
                 </div>
                 <div class="mb-3">
-                  <input type="tel" class="form-control form-input" name="nome" id="tel-input" placeholder="Telefone" required>
+                  <input type="tel" class="form-control form-input" name="tel" id="tel-input" placeholder="Telefone" required>
                 </div>
-                <div class="mb-3">
-                  <textarea class="form-control" id="textArea" rows="4" placeholder="Digite sua mensagem" required></textarea>
+                <div class="mb-3" id="divText">
+                  <textarea class="form-control" id="textArea" rows="4" placeholder="Digite sua mensagem" required text-area></textarea>
                 </div>
-                <button type="submit" class="btn btn-outline-dark">Enviar</button>
+                <button type="submit" class="btn btn-outline-dark" data-button>Enviar</button>
               </form>
             </div>
             <div class="col-12 col-md-6">
@@ -123,7 +123,6 @@
         </div>
       </section>
       <!--End Contact-Us-->
-    
     <footer>
       <!--Footer-->
       <section class="container-fluid" id="footer-section">
@@ -137,4 +136,6 @@
       </section>
       <!--End Footer-->
     </footer>
+    <script src="js/form.js"></script>
 </body>
+</html>
