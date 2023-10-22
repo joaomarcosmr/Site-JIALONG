@@ -97,6 +97,10 @@
 
     /* navbar */
 
+    #navbarBottom{
+        height: 100px;
+    }
+
     .container-nav{
         position: relative;
         top: -35%;
@@ -108,7 +112,7 @@
 
     
     #navbarTogglerDemo02{
-        margin-top: -34px;
+        margin-top: -24px;
         background-color: rgb(75, 75, 75);
         border-left: 3px solid rgba(219, 219, 219, 0.432);
         border-bottom: 3px solid rgba(219, 219, 219, 0.432);
@@ -120,6 +124,10 @@
 
     .togglerNav{
         background-color: rgba(0, 0, 0, 0.596) !important;
+    }
+
+    .container-nav{
+        height: 80px;
     }
 
     /* third section - about us */
@@ -236,8 +244,8 @@
         height: 25px;
     }
     
-    #navbarBottom{
-        height: 80px;
+    .navbarBottom-active{
+        height: 100px !important;
     }
 
     #carousel-section {

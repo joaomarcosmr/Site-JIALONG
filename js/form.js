@@ -11,8 +11,14 @@ class FormSubmit{
         this.sendForm = this.sendForm.bind(this)
     }
 
-    displaySuccess(){
-        this.form.innerHTML = this.settings.success
+    displaySuccess(event){
+        const div = document.createElement('div')
+        const divText = document.getElementById('divText')
+        div.id = 'tagSuccess'
+        div.innerHTML = this.settings.success
+        divText.appendChild(div)
+        event.target.disabled = false
+        event.target.innerText = "Enviar"
     }
 
     displayError(event){
@@ -43,9 +49,9 @@ class FormSubmit{
     async sendForm(event){
         try{
             const tagError = document.getElementById('tagError')
-            if(tagError){
-                tagError.remove()
-            }
+            const tagSuccess = document.getElementById('tagSuccess')
+            if(tagError) tagError.remove()
+            if(tagSuccess) tagSuccess.remove()
             this.onSubmission(event)
             this.checkFields()
             if(this.valid == true) {
@@ -57,7 +63,7 @@ class FormSubmit{
                     },
                     body: JSON.stringify(this.getFormObject()),
                 })
-                this.displaySuccess()
+                this.displaySuccess(event)
             } else {
                 if(this.campoVazio) this.settings.error = "<h3 class='msg text-danger my-4'>Preencha todos os campos</h3>"
                 this.displayError(event)
@@ -113,7 +119,7 @@ class FormSubmit{
 const formSubmit = new FormSubmit({
     form: "[data-form]",
     button: "[data-button]",
-    success: "<h3 class='msg'>Mensagem enviada!</h3>",
+    success: "<h3 class='msg' my-4>Mensagem enviada!</h3>",
     error: "<h3 class='msg'>Não foi possível enviar a sua mensagem</h3>"
 })
 

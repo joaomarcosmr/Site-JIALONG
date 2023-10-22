@@ -14,6 +14,11 @@ a{
 
 /* botoes form */
 
+#tagSuccess{
+    margin-top: 4px;
+    color: green;
+}
+
 .msg{
     text-align: center;
     font-size: 15px;
@@ -60,6 +65,13 @@ button:disabled{
 
 /* navbar */
 
+.nav-link[aria-current='page']{
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
+    background-color: #f2d322d7;
+}
+
 #navbarTop{
     height: 20px;
     background-color: #F2D422;
@@ -77,8 +89,13 @@ button:disabled{
     margin-top: -1px;
     background-color: rgb(46, 46, 46);
     border-bottom: 2px solid rgba(219, 219, 219, 0.432);
-    height: 120px;
+    height: 80px;
     transition: all 0.1s ease-in-out;
+}
+
+#navbarBottom img{
+    margin-top: 4px;
+    width: 140px;
 }
 
 .togglerNav{
@@ -87,6 +104,7 @@ button:disabled{
 
 .navbarBottom-active{
     color: bold;
+    height: 120px !important;
     background-color: transparent !important;
     box-shadow: rgba(230, 230, 230, 0.24) 0px 1px 5px;
 }
@@ -111,6 +129,13 @@ button:disabled{
     font-weight: bold;
     animation: navHover;
     animation-duration: 0.5s; 
+    background-color: #f2d322d7;
+}
+
+.nav-link-active{
+    border-radius: 10px;
+    color: black;
+    font-weight: bold;
     background-color: #f2d322d7;
 }
 
@@ -358,7 +383,6 @@ button:disabled{
 
 .carousel-item{
     height: auto;
-    padding-right: 26px;
 }
 
 /*contact-us*/
