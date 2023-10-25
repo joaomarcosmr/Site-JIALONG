@@ -12,6 +12,13 @@ a{
     text-decoration: none;
 }
 
+.text-bg-success,
+.text-bg-danger{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
 /* botoes form */
 
 #tagSuccess{

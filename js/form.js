@@ -17,6 +17,7 @@ class FormSubmit{
         div.id = 'tagSuccess'
         div.innerHTML = this.settings.success
         divText.appendChild(div)
+        this.clearForm()
         event.target.disabled = false
         event.target.innerText = "Enviar"
     }
@@ -88,15 +89,15 @@ class FormSubmit{
         this.campoVazio = false
         if(!num){
             this.valid = false
-            this.settings.error = "<h3 class='msg text-danger my-4'>Apenas números no campo telefone</h3>"
+            this.settings.error = "<h3 class='msg text-bg-danger my-4'>Apenas números no campo telefone</h3>"
         }
         if(!email.value.includes("@") || !email.value.includes(".")){
             this.valid = false
-            this.settings.error = "<h3 class='msg text-danger my-4'>E-mail inválido</h3>"
+            this.settings.error = "<h3 class='msg text-bg-danger my-4'>E-mail inválido</h3>"
         }
         if(!num && (!email.value.includes("@") || !email.value.includes("."))){
             this.valid = false
-            this.settings.error = "<h3 class='msg text-danger my-4'>E-mail inválido<br>Apenas números no campo telefone</h3>"
+            this.settings.error = "<h3 class='msg text-bg-danger my-4'>E-mail inválido<br>Apenas números no campo telefone</h3>"
         }
 
         fields.forEach((field) => {
@@ -106,6 +107,15 @@ class FormSubmit{
                 return
             }
         })
+    }
+
+    clearForm(){
+        const fields = this.form.querySelectorAll("[name]")
+        const textArea = document.getElementById('textArea')
+        fields.forEach((field) => {
+            field.value = ''
+        })
+        textArea.value = ''
     }
 
     init(){
@@ -119,7 +129,7 @@ class FormSubmit{
 const formSubmit = new FormSubmit({
     form: "[data-form]",
     button: "[data-button]",
-    success: "<h3 class='msg' my-4>Mensagem enviada!</h3>",
+    success: "<h3 class='msg text-bg-success' my-4>Mensagem enviada!</h3>",
     error: "<h3 class='msg'>Não foi possível enviar a sua mensagem</h3>"
 })
 
