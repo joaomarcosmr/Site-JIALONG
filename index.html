@@ -3,7 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jia Long</title>
+    <meta name="google-site-verification" content="-Von4gCzVY6cZr28TQ8mpRB430KrsU4heG_yC19jNSw" />
+    <title>JiaLongPack</title>
+    <meta name="description" content="Maquinários para encartuchamento, desde 1958 lider no mercado chinês agora está no Brasil.">
+    <meta name="keywords" content="máquina flexográfica, encartuchamento, maquinas para imprimir papelão, embalagens, impressão de embalagens, jialongpack, jialongpack brasil, jialong brasil, jialongpack br">
+    <link rel="canonical" href="https://jialongpack.com.br">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="JiaLongPack">
+
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="JiaLong Pack - Encartuchamento">
+    <meta property="og:description" content="Maquinários para encartuchamento, desde 1958 lider no mercado chinês agora está no Brasil.">
+    <meta property="og:site_name" content="Máquinas flexográficas para encartuchamento líder de mercado.">
+    <meta property="og:url" content="https://jialongpack.com.br">
+    <meta property="og:image" content="img/logo-jia-long-pack.png">
 
     <link rel="shortcut icon" href="img/fav.png" type="image/x-icon">
 
@@ -21,6 +35,15 @@
 
 </head>
 <body>
+
+  <div class="modal-container">
+    <div class="modal-content">
+        <span class="close-btn" onclick="closeModal()">&times;</span>
+        <img src="img/anonovo.jpeg" alt="" class="img img-fluid">
+    </div>
+
+</div>
+
   <div id="inicio"></div>
     <header class="fixed-top">
         <nav class="navbar navbar-expand" id="navbarTop">
@@ -62,11 +85,11 @@
     
     <main class="container-fluid">
         <!-- WhatsApp Button -->
-        <div id="whatsappButton">
-          <a target="_blank" href="https://wa.me/5547988514546?text=Eu+vim+pelo+site+e+gostaria+de+saber+mais%21">
+        <!-- <div id="whatsappButton">
+          <a target="_blank" href="https://wa.me/5547988514546?text=Eu+vim+pelo+site+da+JiaLong+e+gostaria+saber+mais%21">
             <i class="fa-brands fa-whatsapp" style="color: #fcfcfc"></i>
           </a>
-        </div>
+        </div> -->
         <!-- Main Banner -->
         <section class="img-fluid d-flex align-items-center" id="carousel-section">
             <div class="container">
@@ -304,25 +327,56 @@
         </div>
       </section>
       <!--End Gallery Section-->
-
+      <!-- Clients -->
+      <section class="container-fluid d-flex align-items-center" id="clients-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="infotext">
+                <h2>Clientes</h2>
+                <p>Esses são os nossos clientes que estão usando nossas máquinas aqui no Brasil!</p>
+              </div>
+            </div>
+            <div class="col-12" id="clients-row">
+              <a href="/bahia.html" class="client" id="bahia" class="img img-fluid">
+                <div>
+                  <span class="client-date">JUNHO, 2023</span>
+                </div>
+                <div>
+                  <span class="client-text">Cliente de Salvador - BA</span>
+                </div>
+              </a>
+              <a href="/saobento.html" class="client" id="saobento">
+                <div>
+                  <span class="client-date">MAIO, 2023</span>
+                </div>
+                <div>
+                  <span class="client-text">Cliente de São Bento do Sul - SC</span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Clients -->
       <!--Contact-Us-->
       <section class="container-fluid d-flex align-items-center" id="contact-us-section">
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 col-form">
-              <form action="https://formsubmit.co/ajax/joaomarcosmr4@gmail.com" method="POST" data-form>
+              <form action="https://formsubmit.co/ajax/everprocomex2002@gmail.com" method="POST" data-form>
                 <h3 class="mb-4 texto-com-linha">Entre em Contato Conosco</h3>
                 <div class="mb-3">
-                  <input type="text" class="form-control form-input" name="name" id="name-input" placeholder="Nome" required>
+                  <input type="text" class="form-control form-input" name="nome" id="name-input" placeholder="Nome" required>
                 </div>
                 <div class="mb-3">
-                  <input type="email" class="form-control form-input" name="email" id="email-input" placeholder="Seu e-mail" required>
+                  <input type="email" class="form-control form-input" name="e-mail" id="email-input" placeholder="Seu e-mail" required>
                 </div>
                 <div class="mb-3">
-                  <input type="tel" class="form-control form-input" name="tel" id="tel-input" placeholder="Telefone" required>
+                  <input type="tel" class="form-control form-input" name="telefone" id="tel-input" placeholder="Telefone" required>
                 </div>
                 <div class="mb-3" id="divText">
-                  <textarea class="form-control" id="textArea" rows="4" placeholder="Digite sua mensagem" required text-area></textarea>
+                  <textarea class="form-control" id="textArea" name="mensagem" rows="4" placeholder="Digite sua mensagem" required text-area></textarea>
                 </div>
                 <button type="submit" class="btn btn-outline-dark" data-button>Enviar</button>
               </form>
@@ -331,9 +385,20 @@
               <div class="box-content-contact">
                 <img src="img/logohorizontal.png" alt="" class="img-fluid" id="logo-footer">
               </div>
+              <div class="d-flex bandeiras">
+                <img src="/img/brasil.webp" alt="">
+                <img src="/img/argentina.webp" alt="">
+                <img src="/img/uniaoeuropeia.webp" alt="">
+              </div>
+              <div class="sites">
+                <p class="text-center">jialongsrbija.rs</p>
+                <p class="text-center">jialongpack.com</p>
+                <p class="text-center">jialongpack.com.br</p>
+              </div>
               <div class="box-content-info">
-                <p>Diretor Geral: Jun Wang</p>
-                <p class="text-black"><i class="fa-brands fa-whatsapp" style="color: #F2D422"></i> (47) 98851-4546</p>
+                <p class="text-center diretorgeral">Jun Wang</p>
+                <p class="text-black"><i class="fa-brands fa-whatsapp" style="color: #F2D422"></i> +86 13827570846</p>
+                <p class="text-black"><i class="fa-brands fa-weixin" style="color: #F2D422"></i> +86 13377583611 </p>
                 <p class="text-black"><i class="fa-regular fa-envelope" style="color: #F2D422"></i> jialongpack@vip.126.com</p>
               </div>
             </div>

@@ -8,3 +8,7 @@ document.addEventListener('click', (e) => {
     if(navLink) navLink.setAttribute("aria-current", "page")
 })
 
+
+function closeModal() {
+    document.querySelector('.modal-container').style.display = 'none';
+}

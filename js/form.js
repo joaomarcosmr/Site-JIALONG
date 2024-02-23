@@ -34,10 +34,12 @@ class FormSubmit{
 
     getFormObject(){
         const formObject = {}
+        const textArea = document.getElementById('textArea')
         const fields = this.form.querySelectorAll("[name]")
         fields.forEach((field) => {
             formObject[field.getAttribute("name")] = field.value
         })
+        formObject.mensagem = textArea.value
         return formObject
     }
 

@@ -12,6 +12,12 @@
 */
 
 @media (min-width: 1400px){
+
+    /* modal */
+
+    .modal-content {
+        width: 700px;
+    }
     
     /* about-us */
 
@@ -40,6 +46,12 @@
 }
 
 @media (max-width: 1400px){
+
+        /* modal */
+
+        .modal-content {
+            width: 900px;
+        }
     
     /* fourth section - tradition */
 
@@ -87,6 +99,12 @@
 }
 
 @media (max-width: 992px){
+
+        /* modal */
+
+        .modal-content {
+            width: 700px;
+        }
 
     /* side pages */
     
@@ -225,6 +243,12 @@
 }
 
 @media (max-width: 768px) {
+
+        /* modal */
+
+        .modal-content {
+            width: 500px;
+        }
 
     /* whatsapp button */
     #whatsappButton{
@@ -378,6 +402,12 @@
 
 @media (max-width: 576px){
 
+    /* modal */
+
+        .modal-content {
+            width: 400px;
+    }
+
     /* navbar */
 
     .navbar-toggler{
@@ -488,6 +518,12 @@
 }
 
 @media (max-width: 470px){
+
+    /* modal */
+
+        .modal-content {
+            width: 300px;
+        }
 
     /* main Banner */
     
